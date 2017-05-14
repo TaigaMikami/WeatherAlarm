@@ -16,6 +16,10 @@
 		F960B79D1EC8140F00B904A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F960B79B1EC8140F00B904A1 /* LaunchScreen.storyboard */; };
 		F960B7A81EC8140F00B904A1 /* WeatherAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960B7A71EC8140F00B904A1 /* WeatherAlarmTests.swift */; };
 		F960B7B31EC8193100B904A1 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960B7B21EC8193100B904A1 /* WeatherViewController.swift */; };
+		F960B7B61EC8231000B904A1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F960B7B41EC8231000B904A1 /* Alamofire.framework */; };
+		F960B7B71EC8231000B904A1 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F960B7B51EC8231000B904A1 /* SwiftyJSON.framework */; };
+		F960B7B91EC826B800B904A1 /* WeatherDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960B7B81EC826B800B904A1 /* WeatherDataManager.swift */; };
+		F960B7BB1EC826D200B904A1 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960B7BA1EC826D200B904A1 /* WeatherDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		F960B7A71EC8140F00B904A1 /* WeatherAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAlarmTests.swift; sourceTree = "<group>"; };
 		F960B7A91EC8140F00B904A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F960B7B21EC8193100B904A1 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		F960B7B41EC8231000B904A1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/WeatherAlarm-eonucoyauavuegahwghaxyscjgau/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		F960B7B51EC8231000B904A1 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/WeatherAlarm-eonucoyauavuegahwghaxyscjgau/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		F960B7B81EC826B800B904A1 /* WeatherDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDataManager.swift; sourceTree = "<group>"; };
+		F960B7BA1EC826D200B904A1 /* WeatherDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F960B7B61EC8231000B904A1 /* Alamofire.framework in Frameworks */,
+				F960B7B71EC8231000B904A1 /* SwiftyJSON.framework in Frameworks */,
 				55BA8A9A9D6D748B0A5C8A64 /* Pods_WeatherAlarm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +81,8 @@
 		4D21AAF7611E95472214CA33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F960B7B41EC8231000B904A1 /* Alamofire.framework */,
+				F960B7B51EC8231000B904A1 /* SwiftyJSON.framework */,
 				C99081BAB1E6FE53C3917B17 /* Pods_WeatherAlarm.framework */,
 				A15E476D9A5034056557FCCA /* Pods_WeatherAlarmTests.framework */,
 			);
@@ -114,6 +126,8 @@
 				F960B7921EC8140F00B904A1 /* AppDelegate.swift */,
 				F960B7941EC8140F00B904A1 /* ViewController.swift */,
 				F960B7961EC8140F00B904A1 /* Main.storyboard */,
+				F960B7B81EC826B800B904A1 /* WeatherDataManager.swift */,
+				F960B7BA1EC826D200B904A1 /* WeatherDataModel.swift */,
 				F960B7B21EC8193100B904A1 /* WeatherViewController.swift */,
 				F960B7991EC8140F00B904A1 /* Assets.xcassets */,
 				F960B79B1EC8140F00B904A1 /* LaunchScreen.storyboard */,
@@ -335,6 +349,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F960B7B91EC826B800B904A1 /* WeatherDataManager.swift in Sources */,
+				F960B7BB1EC826D200B904A1 /* WeatherDataModel.swift in Sources */,
 				F960B7951EC8140F00B904A1 /* ViewController.swift in Sources */,
 				F960B7B31EC8193100B904A1 /* WeatherViewController.swift in Sources */,
 				F960B7931EC8140F00B904A1 /* AppDelegate.swift in Sources */,
@@ -551,6 +567,7 @@
 				F960B7AE1EC8140F00B904A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F960B7AF1EC8140F00B904A1 /* Build configuration list for PBXNativeTarget "WeatherAlarmTests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +576,7 @@
 				F960B7B11EC8140F00B904A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
