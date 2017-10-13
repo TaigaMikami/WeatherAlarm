@@ -8,22 +8,7 @@ Gutty(Taiga Mikami) Original App　
  早起きするのが憂鬱な朝、もしくはお昼寝の際に利用するアプリケーション
  
  
-## Demo
+## Environment
+Swift3
+Xcode
 
-## VS. 
-
-## Requirement
-
-## Usage
-
-## Install
-
-## Contribution
-
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
-
-## Author
-
-[tcnksm](https://github.com/tcnksm)
